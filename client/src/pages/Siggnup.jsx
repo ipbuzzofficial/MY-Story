@@ -32,7 +32,7 @@ export default function Siggnup() {
       }
       setLoading(false);
       if(res.ok){
-        navigate('/sign-in')
+        navigate('/ sign-in')
       }
     }catch(error){
           setErrorMessage(error.message);
